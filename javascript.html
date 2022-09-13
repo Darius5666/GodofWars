@@ -13,7 +13,7 @@
         
         <img class="frame-front" src="Cover_BG.jpg">
         <img src="Title.png" id="img" >
-        <img src="Subtitle(1).png" id="imgB">
+        
         </div>
         
        <script>
@@ -28,7 +28,7 @@
             setTimeout(function() {
             curr_opacity = curr_opacity + 0.05;
             imgs.style.opacity = curr_opacity;
-            imgB.style.opacity = curr_opacity;
+   
             fadeIn()
              },23)
             }
@@ -44,7 +44,7 @@
             else{
                 curr_opacity=0;
                 imgs.style.opacity = curr_opacity;
-                imgB.style.opacity = curr_opacity;
+                
                 document.documentElement.style.cssText = "--Y:-180deg;--BY:0deg;"
                 flag=0;
             }
