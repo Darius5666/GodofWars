@@ -3,7 +3,7 @@
     --BY:-180deg;
 }
 body{
-    background-image: url("https://github.com/Darius5666/GodofWars/blob/gh-pages/BG.jpg");
+    background-image: url("BG.jpg");
 }
 .back{  
     display: flex;
