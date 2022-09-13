@@ -1,0 +1,38 @@
+:root{
+    --Y:0deg;
+    --BY:-180deg;
+}
+body{
+    background-image: url("C:\\Users\\a\\Desktop\\python\\java\\picture\\BG (1).jpg");
+}
+.back{  
+    display: flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+
+}
+#img{
+    position: absolute;
+    
+
+}
+#imgB{
+    margin-top: 100px;
+    position: absolute;
+}
+.frame-front,.frame-back{
+    margin: auto;
+    position:absolute;
+    backface-visibility: hidden;
+    transition:transform.40s ease-in-out;
+
+}
+.frame-front{
+    transform: rotateY(var(--Y));
+}
+.frame-back{
+    transform: rotateY(var(--BY));
+}
+
+
