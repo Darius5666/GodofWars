@@ -20,7 +20,7 @@
        <script>
         
         var btn=document.getElementById("me");
-        var flag=0
+        var flag=1
         var imgs=document.getElementById("img")
         var imgB=document.getElementById("imgB")
         let curr_opacity = 0;
@@ -36,6 +36,7 @@
             };
         btn.onclick=function(){
             if(flag==0){
+                document.documentElement.style.cssText = "--Y:5deg;--BY:-175deg;";
                 document.documentElement.style.cssText = "--Y:0deg;--BY:-180deg;";
                 fadeIn()
                 curr_opacity=0;
