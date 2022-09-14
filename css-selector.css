@@ -39,7 +39,7 @@ body{
     .frame-front,.frame-back{
     margin: auto;
     width:100%;
-    heigh:100%
+    heigh:100%;
     position:absolute;
     backface-visibility: hidden;
     transition:transform.40s ease-in-out;
