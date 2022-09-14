@@ -44,8 +44,8 @@ body{
 
 }
     .frame-front,.frame-back{
-    width:60%;
-    height:60%;    
+    width:400px;
+    height:600px;    
     margin:0;
     position:absolute;
     backface-visibility: hidden;
@@ -54,7 +54,7 @@ body{
 }
 #img{
     position: absolute;
-    width:200px;
+    width:400px;
 
 }
 #imgB{
