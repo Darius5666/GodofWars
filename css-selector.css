@@ -36,10 +36,17 @@ body{
     transform: rotateY(var(--BY));
 }
 @media(max-width:500px){
+    .back{  
+    display: flex;
+    width:auto;
+    height: auto;
+    justify-content: center;
+
+    }
     .frame-front,.frame-back{
     margin: auto;
-    width:400px;
-    heigh:600px;
+    width:60%;
+    heigh:60%;
     position:absolute;
     backface-visibility: hidden;
     transition:transform.40s ease-in-out;
