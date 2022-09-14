@@ -45,7 +45,8 @@ body{
 }
     .frame-front,.frame-back{
     width:auto;
-    height:auto;
+    height:auto;    
+    margin:0;
     position:absolute;
     backface-visibility: hidden;
     transition:transform.40s ease-in-out;
@@ -57,7 +58,7 @@ body{
 
 }
 #imgB{
-    width:90%
+    width:90%;
     margin-top: 100px;
     position: absolute;
 }
