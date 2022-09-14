@@ -43,4 +43,13 @@ body{
     transition:transform.40s ease-in-out;
 
 }
+#img{
+    position: absolute;
+    width:90%
 
+}
+#imgB{
+    width:90%
+    margin-top: 100px;
+    position: absolute;
+}
