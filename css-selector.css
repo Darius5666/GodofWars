@@ -38,8 +38,8 @@ body{
 @media(max-width:600px){
     .frame-front,.frame-back{
     margin: auto;
-    width:auto;
-    heigh:auto;
+    width:400px;
+    heigh:500px;
     position:absolute;
     backface-visibility: hidden;
     transition:transform.40s ease-in-out;
