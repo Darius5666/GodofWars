@@ -35,7 +35,7 @@ body{
 .frame-back{
     transform: rotateY(var(--BY));
 }
-@media(max-width:400px){
+@media(max-width:600px){
     .frame-front,.frame-back{
     margin: auto;
     width:100%;
