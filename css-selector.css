@@ -35,11 +35,11 @@ body{
 .frame-back{
     transform: rotateY(var(--BY));
 }
-@media(max-width:600px){
+@media(max-width:500px){
     .frame-front,.frame-back{
     margin: auto;
-    width:400px;
-    heigh:500px;
+    width:500px;
+    heigh:800px;
     position:absolute;
     backface-visibility: hidden;
     transition:transform.40s ease-in-out;
