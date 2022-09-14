@@ -27,10 +27,10 @@
         function fadeIn() {
             if (curr_opacity < 1) {
             setTimeout(function() {
-            curr_opacity = curr_opacity + 0.01;
+            curr_opacity = curr_opacity + 0.08;
             imgs.style.opacity = curr_opacity; 
             fadeIn()
-             },18)
+             },23)
             }
             };
         btn.onclick=function(){
@@ -38,7 +38,6 @@
                 document.documentElement.style.cssText = "--Y:20deg;--BY:-160deg;";
                 document.documentElement.style.cssText = "--Y:0deg;--BY:-180deg;";
                 fadeIn()
-                curr_opacity=0;
                 flag=1;
                 
             }
