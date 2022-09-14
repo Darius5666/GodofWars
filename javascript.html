@@ -29,6 +29,8 @@
             setTimeout(function() {
             curr_opacity = curr_opacity + 0.01;
             imgs.style.opacity = curr_opacity;
+            if(flag==1){
+                return}
    
             fadeIn()
              },18)
@@ -36,7 +38,7 @@
             };
         btn.onclick=function(){
             if(flag==0){
-                document.documentElement.style.cssText = "--Y:5deg;--BY:-175deg;";
+                document.documentElement.style.cssText = "--Y:20deg;--BY:-160deg;";
                 document.documentElement.style.cssText = "--Y:0deg;--BY:-180deg;";
                 fadeIn()
                 curr_opacity=0;
