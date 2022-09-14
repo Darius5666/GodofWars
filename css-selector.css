@@ -44,8 +44,8 @@ body{
 
 }
     .frame-front,.frame-back{
-    width:auto;
-    height:auto;    
+    width:60%;
+    height:60%;    
     margin:0;
     position:absolute;
     backface-visibility: hidden;
