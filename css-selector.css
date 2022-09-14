@@ -36,8 +36,16 @@ body{
     transform: rotateY(var(--BY));
 }
 @media(max-width:600px){
+    .back{  
+    display: flex;
+    width:100%;
+    height: 100%;
+    justify-content: center;
+
+}
     .frame-front,.frame-back{
-    width:90%;
+    width:auto;
+    height:auto;
     position:absolute;
     backface-visibility: hidden;
     transition:transform.40s ease-in-out;
@@ -45,7 +53,7 @@ body{
 }
 #img{
     position: absolute;
-    width:90%
+    width:200px;
 
 }
 #imgB{
